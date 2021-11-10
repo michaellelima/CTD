@@ -9,35 +9,35 @@ INFORME O NÚMERO DO PRATO E O TEMPO QUE DESEJA PREPARA-LO:
 function microondas(prato, tempo) {
     switch(prato){
         case 1:
-            console.log(`você escolheu: ${prato}, e adicionou um tempo de preparo de: ${tempo}`)
+            console.log(`você escolheu: Pipoca, e adicionou um tempo de preparo de: ${tempo}`)
 
             tempo > 20 ? console.log('Comida queimou') : tempo < 10 ? console.log('Tempo insuficiente') 
             : tempo >= 30 ? console.log('KABUMM') : console.log('Prato pronto! Bom apetite')
             break;
 
         case 2:
-            console.log(`você escolheu: ${prato}, e adicionou um tempo de preparo de: ${tempo}`)
+            console.log(`você escolheu: Macarrão, e adicionou um tempo de preparo de: ${tempo}`)
 
             tempo > 16 ? console.log('Comida queimou') : tempo < 8 ? console.log('Tempo insuficiente') 
             : tempo >= 24 ? console.log('KABUMM') : console.log('Prato pronto! Bom apetite')
             break;
 
         case 3:
-            console.log(`você escolheu: ${prato}, e adicionou um tempo de preparo de: ${tempo}`)
+            console.log(`você escolheu: Carne, e adicionou um tempo de preparo de: ${tempo}`)
 
             tempo > 30 ? console.log('Comida queimou') : tempo < 15 ? console.log('Tempo insuficiente') 
             : tempo >= 45 ? console.log('KABUMM') : console.log('Prato pronto! Bom apetite')
             break;
 
         case 4:
-            console.log(`você escolheu: ${prato}, e adicionou um tempo de preparo de: ${tempo}`)
+            console.log(`você escolheu: Feijão, e adicionou um tempo de preparo de: ${tempo}`)
 
             tempo > 24 ? console.log('Comida queimou') : tempo < 12 ? console.log('Tempo insuficiente') 
             : tempo >= 36 ? console.log('KABUMM') : console.log('Prato pronto! Bom apetite')
             break;
 
         case 5:
-            console.log(`você escolheu: ${prato}, e adicionou um tempo de preparo de: ${tempo}`)
+            console.log(`você escolheu: Brigadeiro, e adicionou um tempo de preparo de: ${tempo}`)
 
             tempo > 16 ? console.log('Comida queimou') : tempo < 8 ? console.log('Tempo insuficiente') 
             : tempo >= 24 ? console.log('KABUMM') : console.log('Prato pronto! Bom apetite')
