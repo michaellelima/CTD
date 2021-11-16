@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0 ;
+}
+
+nav{
+    background-color: black;
+    padding: 20px;
+    
+ 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: blanchedalmond;
+    display: inline;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.sobre{
+    width: 200px;
+    
+    border-radius: 7pt;
+    height: 100px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    margin-top: -366px;
+    margin-left: 636px;
+    padding: 30px;
+}
+
+p{
+    justify-content: none;
+    text-align: justify;
+   
+   font-size: medium;
+}
+
+iframe{
+    margin: 20px
+}
+
+.curiosidades{
+    position: absolute;
+    
+    margin-left: 600px;
+    margin-top: -309px;
+        
+    
+}
+
+li{
+    margin-bottom: 10px;
+    font-family: 'Montagu Slab', serif;
+    
+}
+
+h2 {
+    margin-bottom: 10px;
+   
+font-family: 'Roboto', sans-serif;
+}
+
