@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title></title>
+</head>
+<body>
+    
+    <section class="container">
+        
+        <form action="">
+            <h1>Preencha os dados abaixo :)</h1>
+            <div class="container-fields">
+                <label for="name">Nome</label>
+                <input class="container-input" type="text" for="name" placeholder="Nome completo">
+
+                <label for="email" >Email</label>
+                <input class="container-input" type="text" for="email" placeholder="exemplo@email.com">
+
+                <label for="tel">Telefone</label>
+                <input class="container-input" type="text" for="tel" placeholder="(00)0 0000-0000">
+
+                <label for="data">Data de nascimento</label>
+                <input class="container-input" type="date" name="dtNasc" id="dateNasc">
+
+                <div class="radio">
+                    <div> <input type="radio" name="maiorMenor" id="maiorMenor">Maior de idade</div>
+                    <div><input type="radio" name="maiorMenor" id="maiorMenor">Menor de idade</div>
+                    
+                </div>
+               
+                <label for="cidade">Selecione um ponto de interesse na sua cidade</label>
+                <select class="container-input" name="cidade" id="cidade" for="cidade">
+                    <optgroup>
+                        <option value=""></option>
+                        <option value="Museu">Museu</option>
+                        <option value="Parque ibirapuera">Parque ibirapuera</option>
+                        <option value="Masp">Masp</option>
+                    </optgroup>
+                </select>
+                <fieldset>
+                    <legend>Quais seus interesses na cidade:</legend>
+                    <div class="checkbox-group">
+                        <div><input type="checkbox" name="" id="">Turista</div>
+                        <div><input type="checkbox" name="" id="">Residente </div>
+                        <div> <input type="checkbox" name="" id="">Estudante</div>
+                        
+                       
+                    </div>
+                    
+                </fieldset>
+            </div>
+            <div class="form-button">
+                <button type="submit">Enviar</button>
+                <button type="reset">Apagar</button>
+            </div>
+            
+        </form>
+    </section>
+</body>
+</html>
