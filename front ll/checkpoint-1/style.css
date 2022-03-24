@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202124;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color:#ccc;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+   
+}
+
+.container-form {
+ 
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  border:solid 1px #ccc;
+    border-radius: 3px;
+
+}
+
+.input-class {
+    display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   padding: 15px;
+
+}
+
+#nome {
+    border-radius: 3px solid red;
+}
+
+label {
+    color: #ccc;
+    display: inline-block;
+}
+
+input {
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.display-- {
+    display: block;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 30% ;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 3px;
+}
+
+.cards {
+    background-color: #ccc;
+    width: 60%;
+    padding: 10px;
+}
+
+.imagem {
+    margin: 0 auto;
+}
